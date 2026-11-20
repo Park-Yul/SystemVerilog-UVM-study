@@ -1,0 +1,66 @@
+# Vivado log, temp file
+*.jou
+*.log
+*.str
+*.Xil/
+
+# Vivado sim file
+*.sim/
+
+# vivado XDC file
+*.xdc
+
+#etc
+*.srcs/
+vitis_workspace/
+vitis_workspace_2/
+
+
+
+# ==========================================
+# Synopsys VCS Build & Intermediate Files
+# ==========================================
+csrc/
+simv
+simv.daidir/
+simv.vdb/
+simv.vdb/
+*.daidir/
+*.o
+*.a
+*.so
+
+# ==========================================
+# Coverage & Verdi Log / DB Files
+# ==========================================
+coverage.vdb/
+verdiLog/
+*.vdb
+*.fsdb
+*.vpd
+*.vcd
+*.evcd
+
+# ==========================================
+# Logs, Keys & Config Files
+# ==========================================
+*.log
+*.key
+novas.conf
+novas.rc
+novas_dump.log
+tr_db.log
+ucli.key
+vc_hdrs.h
+vc_hdrs.c
+.fsm.sch.*
+
+# ==========================================
+# OS & System Junk
+# ==========================================
+.DS_Store
+Thumbs.db
+
+
+output/
+tmp/
